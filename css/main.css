@@ -1,0 +1,365 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+      background-image: linear-gradient(to bottom right, #343434, #121212);
+    
+}
+
+.para {
+  font-size: 16px;
+  color: #CECECE;
+  font-family: 'Roboto', sans-serif;
+}
+#main-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+padding: 6%;
+
+  
+}
+
+.logo
+ {
+   width: 2vw;
+   height: auto;
+   position: absolute;
+   
+ }
+
+.icons i:hover {
+  color:  #B4A590;
+  transition: 0.2s ease;
+}
+ .icons {
+   font-size: 2vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40vh;
+    color: #CECECE;
+    height: 20vh;
+    justify-content: space-between;
+ }
+.leftside {
+  padding-top: 5%;
+    padding-left: 10%;
+    height: 100vh;
+    width: 40vw;
+    justify-content: space-between;
+}
+h1 {
+    
+    color: #B4A590;
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.dan {
+  color: #CECECE;
+  font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+   
+}
+nav {
+    margin-top: 12%;
+    height: 20%;
+    
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+nav a {
+    font-size: 18px;
+   width: 100px;
+    text-decoration: none;
+    color: #CECECE;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+ 
+}
+nav a:hover {
+  background-color:  #B4A590;
+ 
+  transition: 0.5s ease;
+}
+
+
+.udesign {
+ height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  right: -100vw;
+  background-image: linear-gradient(to bottom right, #343434, #121212);
+  z-index: 100;
+  transition: 1.2s ease;
+}
+
+.webdesign {
+ height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  right: -100vw;
+ background-image: linear-gradient(to bottom right, #343434, #121212);
+  z-index: 100;
+  transition: 1.2s ease;
+}
+.art {
+ height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  right: -100vw;
+ background-image: linear-gradient(to bottom right, #343434, #121212);
+  z-index: 100;
+  transition: 1.2s ease;
+}
+
+.graphicdesign {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  right: -100vw;
+  background-image: linear-gradient(to bottom right, #343434, #121212);
+  z-index: 100;
+  transition: 1.2s ease;
+}
+
+.workslide {
+    
+    transform: translateX(-100vw);
+    transition: 0.6s ease;
+}
+
+
+.about_text {
+
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+margin: auto;
+justify-content: space-around;
+
+
+
+   
+
+}
+
+h2 {
+      font-size: 24px;
+   
+    color: #B4A590;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+}
+
+.textslide {
+ transform: translateY(-2vw);
+    transition: 0.3s ease;
+}
+
+
+
+.aboutme {
+    position: absolute;
+     top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+   
+      opacity: 0;
+}
+
+.comforts {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+  color: #CECECE;
+   font-family: 'Poppins', sans-serif;
+  
+   font-weight: regular;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #B4A590; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+li {
+  margin: 5px;
+}
+
+.designtool {
+  padding-left: 50px;
+}
+
+.contact_text {
+      height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+margin: auto;
+justify-content: space-around;
+}
+
+.contactdet {
+  font-size: 18px;
+color: #CECECE;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   
+}
+
+.contactme {
+    position: absolute;
+     top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+    
+      opacity: 0;
+}
+
+.mework {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+
+   
+
+    opacity: 0;
+}
+
+
+.worknav {
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+margin: auto;
+justify-content: space-around;
+   
+}
+
+.worknav a {
+ font-size: 4.2vh;
+    text-decoration: none;
+    color: #CECECE;
+   font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+
+.worknav a:hover {
+  background-color:  #B4A590;
+ 
+  transition: 0.5s ease;
+}
+
+
+.mystyle {
+    
+  animation-name: example;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+ 
+  
+}
+
+@keyframes example {
+  0%   {opacity: 0;
+  }
+
+
+ 100% {opacity: 1;
+}
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  .para {
+    font-size: 0.8em;
+  }
+  .comforts {
+   font-size: 0.8em;
+  }
+}
+
+.backk {
+  color: #B4A590;
+  font-size: 2vw;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.gallery {
+  margin:0 80px;
+
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.square {
+  margin: 15px;
+  width: 28vw;
+  height: 40vh;
+  background-color: #B4A590;
+  object-fit: contain;
+  transition: 1.2s;
+}
+
+.square:hover {
+   transform: scale(1.05);
+}
+
+.bose{
+   content:url(/images/boselogo.jpg);
+   object-fit: fill;
+}
+
+.helpearth{
+   content:url(/images/helpe.png);
+   object-fit: cover;
+}
+
+.smokey{
+   content:url(/images/smokepins.png);
+   object-fit: cover;
+}
+
+.spec{
+   content:url(/images/spec.png);
+   object-fit: cover;
+
+}
