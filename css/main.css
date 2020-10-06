@@ -344,22 +344,26 @@ justify-content: space-around;
 }
 
 .bose{
-   content:url(images/boselogo.jpg);
+    width: 28vw;
+  height: 40vh;
    object-fit: fill;
 }
 
 .helpearth{
-   content:url(images/helpe.png);
+  width: 28vw;
+  height: 40vh;
    object-fit: cover;
 }
 
 .smokey{
-   content:url(images/smokepins.png);
+    width: 28vw;
+  height: 40vh;
    object-fit: cover;
 }
 
 .spec{
-   content:url(images/spec.png);
+   width: 28vw;
+  height: 40vh;
    object-fit: cover;
 
 }
